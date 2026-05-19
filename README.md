@@ -13,5 +13,12 @@ Captions go here
 
 A WPF application made to demonstrate inheritance and enums. It features several locations for the player to go to, each with a generated set of creatures with randomized names and stats. Each location has a unique creature type that derives from the general Creature class, with override methods drawing from the base class.
 
-Images go here
+Images go here  
+Captions go here
+
+### Chicago Weather Reader
+
+A console app that uses an API call to give the current weather in Chicago, Illinois. API key obtained from openweathermap.org.
+
+Images go here  
 Captions go here
