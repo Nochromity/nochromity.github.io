@@ -22,3 +22,24 @@ A console app that uses an API call to give the current weather in Chicago, Illi
 
 Images go here  
 Captions go here
+
+### Boggie
+
+A console app that replicates the word game Boggle, using an array to create the board and drawing from external files to determine accepted words. Tracks score and entered words on-screen during gameplay.
+
+Images here  
+Captions here
+
+### Save System Demo
+
+A WPF app that can save data to an external file. Includes an inventory that items can be added to, and files that store items to be added to the game on startup.
+
+Images  
+Captions
+
+### Path in the Woods
+
+A text-based adventure game made as a WPF application. It allows the player to take quests from randomly-generated NPCs in a village setting, then set out into the woods to overcome obstacles and complete objectives. Upon turning in completed quests, the player would earn points and reward money, allowing them to take on more difficult quests.
+
+Images
+Captions
