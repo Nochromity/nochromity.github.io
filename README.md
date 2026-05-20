@@ -69,10 +69,28 @@ This is all of the code for the program, with the API key obscured. This code wa
 
 ### Boggie
 
-A console app that replicates the word game Boggle, using an array to create the board and drawing from external files to determine accepted words. Tracks score and entered words on-screen during gameplay.
+A console app that replicates the word game Boggle, using an array to create the board and drawing from external files to determine accepted words. Tracks score and entered words on-screen during gameplay.  
+<br/>
 
-Images here  
-Captions here
+<img width="638" height="444" alt="image" src="https://github.com/user-attachments/assets/bd235568-4eca-4d9e-b71e-14ea66ecb2b4" />  
+
+The game allows the player to enter a word, and if the word is correct, it is recorded on-screen for the player to keep track of what they've entered, along with their score. The program clears lines so that the console is kept uncluttered and things stay in the same position for every action the user performs.
+<br/><br/>
+
+<img width="763" height="245" alt="image" src="https://github.com/user-attachments/assets/0ef5a5a2-baa7-4920-960b-27372a8636bd" />  
+
+I had some difficulty getting the array to display correctly, but I had a number of guides I could follow to figure it out, including my own old coding assignments from Programming I. The board's letters are hard-coded in, but could easily be outsourced to an external file with multiple different string arrays for the program to randomly choose from.
+<br/><br/>
+
+<img width="415" height="516" alt="image" src="https://github.com/user-attachments/assets/3ed3ed6c-dc3d-4e57-8497-a57b57b678d6" />  
+
+I'm fairly proud of the code that went into making the game work the way it does, particularly the formatting for displaying found words. I realize now that there is no means for the program to prevent repeat correct answers from being entered multiple times, but there is always room for improvement.
+<br/><br/>
+
+<img width="512" height="367" alt="image" src="https://github.com/user-attachments/assets/746f4988-53d3-424d-934f-470f978d77f4" />  
+
+RunGame and PlayGame keep the game running continuously as long as gameActive is true. A timer class was made, but the feature was not implemented fully. If the game had a functional timer, gameActive would change to false when it reached 0. As it currently stands, there is a debug feature that manually changes gameActive to false so as to test the EndGame method.
+<br/><br/>
 
 ### Save System Demo
 
