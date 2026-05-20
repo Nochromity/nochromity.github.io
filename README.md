@@ -94,14 +94,34 @@ RunGame and PlayGame keep the game running continuously as long as gameActive is
 
 ### Save System Demo
 
-A WPF app that can save data to an external file. Includes an inventory that items can be added to, and files that store items to be added to the game on startup.
+A WPF app that can save data to an external file. Includes an inventory that items can be added to, and files that store items to be added to the game on startup.  
+<br/>
 
-Images  
-Captions
+<img width="777" height="224" alt="image" src="https://github.com/user-attachments/assets/6db00d08-fcc4-405e-a127-91019945cbe3" />  
+
+The player starts with three items in their inventory, which the program displays. The "Get Item" button gives them another apple, and the "Save" button writes their current inventory to an external file.
+<br/><br/>
+
+<img width="652" height="517" alt="image" src="https://github.com/user-attachments/assets/b08f1d37-0ad1-4f08-8f30-3ab36f1e729e" />  
+
+Method that loads the inventory file and translates its data into instances of the Item class to be added to the player's inventory.
+<br/><br/>
+
+<img width="689" height="241" alt="image" src="https://github.com/user-attachments/assets/ac8fda8a-0a3f-432e-b21c-3f0c804d172a" />  
+
+This is the inventory.xml file after adding a few items via the program. There is only one file, so the program is changed every time it is run, but ideally there would be another file with only the starting items so that the user could start from scratch if they wanted to.
+<br/><br/>
+
+<img width="420" height="470" alt="image" src="https://github.com/user-attachments/assets/60d1941e-c6bc-43f1-9bb9-8ffd892d93de" />  
+
+Saving data to a file effectively performs the reverse operation from loading data into the program, albeit with a few differences in the code. Converting an int to a string is a much shorter process than converting a string to an int.
+<br/><br/>
 
 ### Path in the Woods
 
-A text-based adventure game made as a WPF application. It allows the player to take quests from randomly-generated NPCs in a village setting, then set out into the woods to overcome obstacles and complete objectives. Upon turning in completed quests, the player would earn points and reward money, allowing them to take on more difficult quests.
+A text-based adventure game made as a WPF application. It allows the player to take quests from randomly-generated NPCs in a village setting, then set out into the woods to overcome obstacles and complete objectives. Upon turning in completed quests, the player would earn points and reward money, allowing them to take on more difficult quests.  
+<br/>
+
 
 Images
 Captions
