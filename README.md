@@ -27,12 +27,30 @@ A SearchInventory method was coded, but ultimately not implemented. Pieces of th
 The vendor NPC was given dialogue as a fun extra feature. This includes a means of changing the vendor's name, mostly as a joke, but also to demonstrate that their name is an attribute and not hard-coded into the displayed text.
 <br/><br/>
 
-### Creature Generator
+### CritterPasture
 
-A WPF application made to demonstrate inheritance and enums. It features several locations for the player to go to, each with a generated set of creatures with randomized names and stats. Each location has a unique creature type that derives from the general Creature class, with override methods drawing from the base class.
+A WPF application made to demonstrate inheritance and enums. It features several locations for the player to go to, each with a generated set of creatures with randomized names and stats. Each location has a unique creature type that derives from the general Creature class, with override methods drawing from the base class.  
+<br/>
 
-Images go here  
-Captions go here
+<img width="782" height="511" alt="image" src="https://github.com/user-attachments/assets/1ce49f4f-2d15-4f22-b877-b3f0dce7231e" />  
+
+The program has a button that opens a menu for moving between locations, where each generated set of creatures can be viewed. Each set is generated on startup and remains consistent upon leaving and re-entering a location. For new sets, the player would have to close and reopen the program.
+<br/><br/>
+
+<img width="815" height="454" alt="image" src="https://github.com/user-attachments/assets/1195787e-b241-479f-90a7-4bf7eb4247a6" />  
+
+This is the code that sets up the text that is displayed. It displays information about each Creature in each Location, along with the text for how they eat and communicate. Unique Creatures, instances of child classes of the Creature class, have extra activities they can perform. As can be seen from the comments in this section, I struggled with implementing this extra activity because it would not recognize a Wyrmling as a Creature the way I thought it would. I was able to resolve the issue with assistance from my professor.
+<br/><br/>
+
+<img width="442" height="522" alt="image" src="https://github.com/user-attachments/assets/e67dbcdc-17a5-4af2-8e76-b32e00311925" />  
+
+This is how the Move menu works for changing location. Showing the menu and hiding the menu are both implemented twice, with one method activating through pressing the "Go Somewhere" and "Cancel" buttons, while the other has no parameters and exists so that other methods can call it. For instance, moving to a different location closes the menu automatically.
+<br/><br>
+
+<img width="404" height="272" alt="image" src="https://github.com/user-attachments/assets/d038ea53-429e-4c88-b7aa-a6a94cc7e68f" />  
+
+This code shows one of the child classes of the Creature class. The Creature class has Eat and Communicate methods, and the Wyrmling class has override methods for each of these. The overridden Communicate method ended up being unnecessary, as the base method was altered to include a creature's noise, should they have one, by default.
+<br/><br/>
 
 ### Chicago Weather Reader
 
