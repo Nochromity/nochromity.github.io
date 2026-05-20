@@ -54,10 +54,18 @@ This code shows one of the child classes of the Creature class. The Creature cla
 
 ### Chicago Weather Reader
 
-A console app that uses an API call to give the current weather in Chicago, Illinois. API key obtained from openweathermap.org.
+A console app that uses an API call to give the current weather in Chicago, Illinois. API key obtained from openweathermap.org.  
+<br/>
 
-Images go here  
-Captions go here
+<img width="320" height="121" alt="image" src="https://github.com/user-attachments/assets/efe91823-e13b-4a1c-867e-cac3345eff7d" />  
+
+The program is very simple, calling a weather API and displaying the information it provides. There is no interactivity beyond opening the program.
+<br/><br/>
+
+<img width="765" height="332" alt="image" src="https://github.com/user-attachments/assets/be2ee0dd-0c2f-40c6-8eba-20f6cda23047" />  
+  
+This is all of the code for the program, with the API key obscured. This code was demonstrated in class as part of a demonstration, and so credit for it goes to Professor Janell Baxter. The work I contributed was to acquire and insert the API key.
+<br/><br/>
 
 ### Boggie
 
