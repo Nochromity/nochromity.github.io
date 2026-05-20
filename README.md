@@ -122,6 +122,21 @@ Saving data to a file effectively performs the reverse operation from loading da
 A text-based adventure game made as a WPF application. It allows the player to take quests from randomly-generated NPCs in a village setting, then set out into the woods to overcome obstacles and complete objectives. Upon turning in completed quests, the player would earn points and reward money, allowing them to take on more difficult quests.  
 <br/>
 
+<img width="799" height="479" alt="image" src="https://github.com/user-attachments/assets/33d0cfd2-19b6-4967-8e47-d5516d027b41" />  
 
-Images
-Captions
+The main menu is a page opened by the MainWindow on startup. It has a New Game button, a Continue button, and an Exit button. The Continue button is currently nonfunctional, but it would load save data and open the game with the player's saved quests, stats, existing NPCs, and other progress the player has made. If there is no save data, the button would be grayed out, or have reduced opacity. Clicking the New Game button brings up a confirmation window that, if the player *did* have save data, would alert them to the fact that it would be replaced upon starting a new game.
+<br/><br/>
+
+<img width="798" height="478" alt="image" src="https://github.com/user-attachments/assets/2e171e67-5a42-458c-864d-dc16846dadd6" />  
+
+The game level page includes a text box at the bottom where the bulk of the gameplay would occur, as a text-based game. The middle is left empty to account for the future possibility of illustrations that go with the story. The top left corner has a health and stamina meter that reflect the player's stats, and the top right has the time of day and the player's current amount of money. There is a menu button that brings up an in-game menu, which is a stack panel containing buttons for "Resume," "Settings," "Save," "Exit to Main Menu," and "Exit Game." The text box has hidden interaction buttons along the bottom that appear as they become relevant. When the player finishes the tutorial, they would all be visible.
+<br/><br/>
+
+<img width="807" height="520" alt="image" src="https://github.com/user-attachments/assets/286322a6-fa9c-4bd5-869b-19653923ba06" />  
+
+This functionality is currently set up for the tutorial, simply so that the game can be tested. Eventually, there would be code outside of the "if (Tutorial)" statement for the Continue and Talk buttons. The TutorialProgression attribute makes it simpler to keep track of which text should appear for each button press.
+<br/><br/>
+
+<img width="475" height="512" alt="image" src="https://github.com/user-attachments/assets/ff879ad1-c600-4f95-adba-1ce84617b084" />  
+
+Perhaps the code that intruduces an NPC is, again, not the most elegant, but I had fun writing it and testing its functionality. I wanted the prose to feel immersive, because realistically, you wouldn't know someone's exact age just from looking at them.
